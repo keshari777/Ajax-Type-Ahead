@@ -32,6 +32,11 @@ input.search{
     box-shadow: 0 0 5px rgba(0,0,0,0.12),inset 0 0 2px rgba(0,0,0,0.19);
 }
 .suggestions{
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+.suggestions li{
     background: white;
     list-style: none;
     border-bottom: 1px solid #D8D8D8;
@@ -54,6 +59,6 @@ input.search{
 span.population{
     font-size: 15px;
 }
-.h1{
+.hl{
     background: #ffc600;
 }
